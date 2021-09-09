@@ -1,0 +1,6 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","iocAB300")
+epicsEnvSet("TOP","/home/linux/epics/modules/instrument/ab300")
+epicsEnvSet("ASYN","/home/linux/epics/modules/soft/synApps_5_6/support/asyn-4-18")
+epicsEnvSet("EPICS_BASE","/home/linux/epics/base-3.14.12.7")
+epicsEnvSet("AB300","/home/linux/epics/modules/instrument/ab300")

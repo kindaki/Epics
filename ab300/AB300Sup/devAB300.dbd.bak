@@ -1,0 +1,16 @@
+device(ai,        GPIB_IO, devAiAB300,    "AB300")
+device(ao,        GPIB_IO, devAoAB300,    "AB300")
+device(bi,        GPIB_IO, devBiAB300,    "AB300")
+device(bo,        GPIB_IO, devBoAB300,    "AB300")
+device(event,     GPIB_IO, devEvAB300,    "AB300")
+device(longin,    GPIB_IO, devLiAB300,    "AB300")
+device(longout,   GPIB_IO, devLoAB300,    "AB300")
+device(mbbi,      GPIB_IO, devMbbiAB300 , "AB300")
+device(mbbiDirect,GPIB_IO, devMbbidAB300, "AB300")
+device(mbbo,      GPIB_IO, devMbboAB300,  "AB300")
+device(mbboDirect,GPIB_IO, devMbbodAB300, "AB300")
+device(stringin,  GPIB_IO, devSiAB300,    "AB300")
+device(stringout, GPIB_IO, devSoAB300,    "AB300")
+device(waveform,  GPIB_IO, devWfAB300,    "AB300")
+
+include "asyn.dbd"

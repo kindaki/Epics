@@ -1,0 +1,20 @@
+## configure/RELEASE: Location of external products
+
+# Run "gnumake clean uninstall install" in the application top
+# directory whenever this file is changed or any external module
+# pointed to by this RELEASE file is rebuilt.
+
+# If you don't want to install files into $(TOP) then define
+# INSTALL_LOCATION_APP here:
+#INSTALL_LOCATION_APP=<fullpathname>
+
+# Define path to sequencer if needed
+#SNCSEQ=/home/linux/epics/modules/soft/synApps_5_6/support/seq-2-1-3
+
+# Asyn
+ASYN=/home/linux/epics/modules/soft/synApps_5_6/support/asyn-4-18
+
+# EPICS_BASE usually appears last so other apps can preempt definitions
+EPICS_BASE=/home/linux/epics/base-3.14.12.7
+
+AB300=/home/linux/epics/modules/instrument/ab300

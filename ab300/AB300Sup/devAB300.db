@@ -1,0 +1,8 @@
+record(longin, "$(P)$(R)GetCH1Switch")
+{
+    field(DESC, "Get switch_status of channel 1") 
+    field(DTYP, "BeamLoss")
+    field(INP,  "#L$(L) A$(A) @1")
+    field(LOPR, 0)
+    field(HOPR, 2)
+}
